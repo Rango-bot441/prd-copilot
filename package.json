@@ -1,0 +1,13 @@
+{
+  "name": "prd-copilot",
+  "version": "1.0.0",
+  "private": false,
+  "description": "A static requirement clarification copilot and PRD builder for product portfolio demos.",
+  "type": "module",
+  "scripts": {
+    "start": "python3 -m http.server ${PORT:-4190}",
+    "serve": "python3 -m http.server ${PORT:-4190}"
+  },
+  "keywords": ["prd", "product-management", "requirement-clarification", "portfolio", "static-site"],
+  "license": "MIT"
+}
